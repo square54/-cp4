@@ -26,6 +26,9 @@ class Node{
         ~Node(){
             delete this;
         }
+        int getData(){
+            return data;
+        }
 };
 
 class BST{
@@ -36,7 +39,7 @@ class BST{
         BST(Node n);
         ~BST();
         void insert(Node n);
-        Node find();
+        Node find(Node n);
         void remove(Node n);
 
 

@@ -13,8 +13,8 @@ void BST::insert(Node n){
     
 }
 
-Node BST::find(){
-
+Node BST::find(Node n){
+    
 }
 
 void BST::remove(Node n){
