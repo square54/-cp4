@@ -5,17 +5,18 @@ BST::BST(){
 }
 
 BST::~BST(){
+    
     delete root;
 }
 
-void BST::insert(){
-
+void BST::insert(Node n){
+    
 }
 
 Node BST::find(){
 
 }
 
-void BST::remove(){
+void BST::remove(Node n){
 
 }

@@ -4,6 +4,7 @@
 #include <iostream>
 #include <stdlib.h>
 #include <string>
+#include <vector>
 using namespace std;
 
 class Node{
@@ -12,9 +13,19 @@ class Node{
         Node *right;
         int data;
     public:
-        Node();
-        Node(int data);
-        ~Node();
+        Node(){
+            left = nullptr;
+            right = nullptr;
+            data = 0;
+        }
+        Node(int data){
+            this->data = data;
+            left = nullptr;
+            right= nullptr;
+        }
+        ~Node(){
+            delete this;
+        }
 };
 
 class BST{
@@ -22,10 +33,12 @@ class BST{
         Node *root;
     public:
         BST();
+        BST(Node n);
         ~BST();
-        void insert();
+        void insert(Node n);
         Node find();
-        void remove();
+        void remove(Node n);
+
 
 };
 
