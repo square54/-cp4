@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "atomic": "cpp",
+        "cstdio": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "xmemory": "cpp",
+        "xstring": "cpp",
+        "xtr1common": "cpp",
+        "xutility": "cpp",
+        "iostream": "cpp",
+        "random": "cpp",
+        "vector": "cpp",
+        "cstdlib": "cpp",
+        "ostream": "cpp"
+    }
+}
