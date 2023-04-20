@@ -1,9 +1,11 @@
 COURSE = cs240
 SEMESTER = spring2023
 CP_NUMBER = 1
-LASTNAME = Thomas
-GITUSERID = square54
-EXE = scheduler
+LASTNAME = Park
+GITUSERID = jpark430
+EXE = bst
+#  valgrind --leak-check=full --show-leak-kinds=all
+
 
 REPODIR = ../$(COURSE)-$(SEMESTER)-cp$(CP_NUMBER)-$(GITUSERID)
 TARFILE = CP$(CP_NUMBER)_$(LASTNAME)_$(USER)_$(GITUSERID).tar
